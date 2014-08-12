@@ -1,0 +1,116 @@
+/*
+ Theme Name:   WSU Treefruit - Spine
+ Theme URI:    treefruit.wsu.edu
+ Description:  Custom Theme for WSU Treefruit
+ Author:       CAHNRS Communications, Danial Bleile
+ Author URI:   http://cahnrs.wsu.edu/communications
+ Template:     WSUWP-spine-parent-theme
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wsu_treefruit
+*/
+body {
+	background-color: #fff;
+}
+main {
+	background: none !important;
+}
+
+main > section {
+	margin: 2rem 220px 4rem 1rem !important;
+	width: auto !important;
+	}
+main > section > h1{
+	margin-left: 1rem;
+	}
+	
+#spine #glue {
+	-webkit-box-shadow: 0px 0px 4px 2px rgba(50, 50, 50, 0.61);
+	-moz-box-shadow:    0px 0px 4px 2px rgba(50, 50, 50, 0.61);
+	box-shadow:         0px 0px 4px 2px rgba(50, 50, 50, 0.61);
+}
+	
+#binder.fluid .row:not(.rebound) {
+	width: auto !important;
+}
+
+#tf-primary-header .tf-site-banner {
+	background: #981e33;
+	height: 110px;
+	line-height: 110px;
+}
+
+#tf-primary-header .tf-site-banner a {
+	display: inline-block;
+	padding: 0 2rem;
+	font-size: 2rem;
+	color: #fff;
+	
+}
+
+#tf-primary-header .tf-site-banner::before {
+	content: " ";
+	width: 100%;
+	background: #981e33;
+	left: -100%;
+	position: absolute;
+	height: 110px;
+}
+
+#tf-primary-header .tf-site-banner::after {
+	content: " ";
+	width: 100%;
+	background: #981e33;
+	right: -100%;
+	position: absolute;
+	height: 110px;
+}
+
+#tf-primary-header .tf-header-nav {
+	background: #7b1626;
+	height: 30px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+#tf-primary-header .tf-header-nav::before {
+	content: " ";
+	width: 100%;
+	background: #7b1626;
+	right: -100%;
+	position: absolute;
+	height: 30px;
+}
+#tf-primary-header .tf-header-nav::after {
+	content: " ";
+	width: 100%;
+	background: #7b1626;
+	left: -100%;
+	position: absolute;
+	height: 30px;
+	
+}
+
+#tf-site-toolbar {
+	position: absolute;
+	top: 140px;
+	right: 0px;
+	bottom: 0px;
+	width: 200px;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+#tf-endowment-logo {
+	position: fixed;
+	width: 200px;
+	bottom: 0; 
+}
+
+#tf-endowment-logo img {
+	display: block;
+}
+/***** PAGEBUILDER OVERRIDES ******/
+main .pagebuilder-column aside,
+main .pagebuilder-column article {
+	margin: 0 1rem 2rem 1rem;
+}
