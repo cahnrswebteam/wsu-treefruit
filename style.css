@@ -109,6 +109,12 @@ main > section > h1{
 #tf-endowment-logo img {
 	display: block;
 }
+.search-article {
+	display: none;
+}
+.search-article.active {
+	display: block;
+}
 /***** PAGEBUILDER OVERRIDES ******/
 main .pagebuilder-column aside,
 main .pagebuilder-column article {
