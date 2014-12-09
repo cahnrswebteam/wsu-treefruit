@@ -1,0 +1,250 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "nextPage": [
+   {
+    "title": "Google Custom Search - apples",
+    "totalResults": "4830",
+    "searchTerms": "apples",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "004797236515831676218:jjbaaricka8"
+   }
+  ],
+  "request": [
+   {
+    "title": "Google Custom Search - apples",
+    "totalResults": "4830",
+    "searchTerms": "apples",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "004797236515831676218:jjbaaricka8"
+   }
+  ]
+ },
+ "context": {
+  "title": "*.tfrec.wsu.edu"
+ },
+ "searchInformation": {
+  "searchTime": 0.268895,
+  "formattedSearchTime": "0.27",
+  "totalResults": "4830",
+  "formattedTotalResults": "4,830"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Apples",
+   "htmlTitle": "\u003cb\u003eApples\u003c/b\u003e",
+   "link": "http://postharvest.tfrec.wsu.edu/pages/Apples",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Dec 9, 2010 ... Articles about Red Delicious apples. Photo courtesty of the Washington Apple \nCommission ... Articles about Golden Delicious apples.",
+   "htmlSnippet": "Dec 9, 2010 \u003cb\u003e...\u003c/b\u003e Articles about Red Delicious \u003cb\u003eapples\u003c/b\u003e. Photo courtesty of the Washington \u003cb\u003eApple\u003c/b\u003e \u003cbr\u003e\nCommission ... Articles about Golden Delicious \u003cb\u003eapples\u003c/b\u003e.",
+   "cacheId": "rRdMsOiRuJAJ",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/pages/Apples",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/pages/\u003cb\u003eApples\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Postharvest Diseases of Apples and Pears",
+   "htmlTitle": "Postharvest Diseases of \u003cb\u003eApples\u003c/b\u003e and Pears",
+   "link": "http://decay.tfrec.wsu.edu/",
+   "displayLink": "decay.tfrec.wsu.edu",
+   "snippet": "Postharvest Diseases of Apples and Pears - A Guide to Diagnosis and Control \nC. L. Xiao. Introduction · Origins of postharvest diseases · How to diagnose ...",
+   "htmlSnippet": "Postharvest Diseases of \u003cb\u003eApples\u003c/b\u003e and Pears - A Guide to Diagnosis and Control \u003cbr\u003e\nC. L. Xiao. Introduction &middot; Origins of postharvest diseases &middot; How to diagnose&nbsp;...",
+   "cacheId": "1PnRnLavbcEJ",
+   "formattedUrl": "decay.tfrec.wsu.edu/",
+   "htmlFormattedUrl": "decay.tfrec.wsu.edu/",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://decay.tfrec.wsu.edu/images/coverpage-300.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "185",
+      "height": "240",
+      "src": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSWAX2AS8jW1Jgv_iK-lTEbQlA3qd6sk_36pfiBCLDkjDnSe9ukx6vYgv0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apples",
+   "htmlTitle": "\u003cb\u003eApples\u003c/b\u003e",
+   "link": "http://postharvest.tfrec.wsu.edu/market/Apples",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Dec 21, 2010 ... Contents: Apples. (see also Postharvest Diseases of Apples and Pears - A Guide \nto Diagnosis and Control). Apples (in general) · Alternaria rot ...",
+   "htmlSnippet": "Dec 21, 2010 \u003cb\u003e...\u003c/b\u003e Contents: \u003cb\u003eApples\u003c/b\u003e. (see also Postharvest Diseases of \u003cb\u003eApples\u003c/b\u003e and Pears - A Guide \u003cbr\u003e\nto Diagnosis and Control). \u003cb\u003eApples\u003c/b\u003e (in general) &middot; Alternaria rot&nbsp;...",
+   "cacheId": "HJM-rg_CwvAJ",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/market/Apples",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/market/\u003cb\u003eApples\u003c/b\u003e"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple maggot",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e maggot",
+   "link": "http://jenny.tfrec.wsu.edu/opm/displaySpecies.php?pn=140",
+   "displayLink": "jenny.tfrec.wsu.edu",
+   "snippet": "Apple maggot is a native North American pest whose original host was hawthorn. \nIt was first reported as a pest of apple in the 1860s and has become a key pest ...",
+   "htmlSnippet": "\u003cb\u003eApple\u003c/b\u003e maggot is a native North American pest whose original host was hawthorn. \u003cbr\u003e\nIt was first reported as a pest of \u003cb\u003eapple\u003c/b\u003e in the 1860s and has become a key pest&nbsp;...",
+   "cacheId": "Z7ZPBsPUfbYJ",
+   "formattedUrl": "jenny.tfrec.wsu.edu/opm/displaySpecies.php?pn=140",
+   "htmlFormattedUrl": "jenny.tfrec.wsu.edu/opm/displaySpecies.php?pn=140",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://jenny.tfrec.wsu.edu/opm/opmimages/AM_f3.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "212",
+      "height": "181",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuZ7DtiJ3xsbLx2svH5ChGn4SmxTprq5mCCl2cindZbuyAMwNVwPFXZgk"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple Scald, a Complex Problem",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e Scald, a Complex Problem",
+   "link": "http://postharvest.tfrec.wsu.edu/pages/N6I2C",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Scald is a term loosely applied to a group of skin disorders of apples and pears. It \ninvolves brown or gray discoloration of irregularly shaped areas on the surface ...",
+   "htmlSnippet": "Scald is a term loosely applied to a group of skin disorders of \u003cb\u003eapples\u003c/b\u003e and pears. It \u003cbr\u003e\ninvolves brown or gray discoloration of irregularly shaped areas on the surface&nbsp;...",
+   "cacheId": "Z7OB4U1n9uAJ",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/pages/N6I2C",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/pages/N6I2C"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Improving Apple Color",
+   "htmlTitle": "Improving \u003cb\u003eApple\u003c/b\u003e Color",
+   "link": "http://postharvest.tfrec.wsu.edu/pages/RP2000A",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Color management of apples is a topical issue for many growers at present. \nForeground export color requirements on many cultivars have recently become ...",
+   "htmlSnippet": "Color management of \u003cb\u003eapples\u003c/b\u003e is a topical issue for many growers at present. \u003cbr\u003e\nForeground export color requirements on many cultivars have recently become&nbsp;...",
+   "cacheId": "NjzPVX3ltFIJ",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/pages/RP2000A",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/pages/RP2000A"
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Market Diseases of Apples, Pears, and Quinces: Water Core",
+   "htmlTitle": "Market Diseases of \u003cb\u003eApples\u003c/b\u003e, Pears, and Quinces: Water Core",
+   "link": "http://postharvest.tfrec.wsu.edu/marketdiseases/watercore.html",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Occurrence and importance. Water core occurs in practically all apple-producing \nsections of the United States, but it is of greatest importance in those having an ...",
+   "htmlSnippet": "Occurrence and importance. Water core occurs in practically all \u003cb\u003eapple\u003c/b\u003e-producing \u003cbr\u003e\nsections of the United States, but it is of greatest importance in those having an&nbsp;...",
+   "cacheId": "PSh2bzHljkoJ",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/marketdiseases/watercore.html",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/marketdiseases/watercore.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://postharvest.tfrec.wsu.edu/marketdiseases/Apples/H2OE1.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "112",
+      "height": "112",
+      "src": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSwgpaS407omg1x50ZgXno8KDzipP8YjCp_2XfcxIB85tMvVVPVPV20"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Bull's Eye Rot of Apple",
+   "htmlTitle": "Bull&#39;s Eye Rot of \u003cb\u003eApple\u003c/b\u003e",
+   "link": "http://decay.tfrec.wsu.edu/displayPage.php?id=pathlab&pn=50",
+   "displayLink": "decay.tfrec.wsu.edu",
+   "snippet": "Bull's eye rot occurs on both apples and pears in the U.S. Pacific Northwest. In \nWashington State, Bull's eye rot is more commonly seen on Golden Delicious, ...",
+   "htmlSnippet": "Bull&#39;s eye rot occurs on both \u003cb\u003eapples\u003c/b\u003e and pears in the U.S. Pacific Northwest. In \u003cbr\u003e\nWashington State, Bull&#39;s eye rot is more commonly seen on Golden Delicious,&nbsp;...",
+   "cacheId": "YYSiHzhVlLcJ",
+   "formattedUrl": "decay.tfrec.wsu.edu/displayPage.php?id=pathlab&pn=50",
+   "htmlFormattedUrl": "decay.tfrec.wsu.edu/displayPage.php?id=pathlab&amp;pn=50",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://decay.tfrec.wsu.edu/images/gull-golden-multiple-200.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "149",
+      "height": "160",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT65lHiCts6MTcaYqVuiojrrEGJ7e9Zyxs288_n8UrH21I8cvf9y_EKsd4"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Controlled Atmosphere Storage of Apples and Pears, December 2001",
+   "htmlTitle": "Controlled Atmosphere Storage of \u003cb\u003eApples\u003c/b\u003e and Pears, December 2001",
+   "link": "http://postharvest.tfrec.wsu.edu/emk2001d.pdf",
+   "displayLink": "postharvest.tfrec.wsu.edu",
+   "snippet": "Controlled atmosphere (CA) storage recommendations for apples and pears \nhave been surveyed on a worldwide basis since 1985 and have appeared as \npart ...",
+   "htmlSnippet": "Controlled atmosphere (CA) storage recommendations for \u003cb\u003eapples\u003c/b\u003e and pears \u003cbr\u003e\nhave been surveyed on a worldwide basis since 1985 and have appeared as \u003cbr\u003e\npart&nbsp;...",
+   "cacheId": "w8QsE2L59xAJ",
+   "mime": "application/pdf",
+   "fileFormat": "PDF/Adobe Acrobat",
+   "formattedUrl": "postharvest.tfrec.wsu.edu/emk2001d.pdf",
+   "htmlFormattedUrl": "postharvest.tfrec.wsu.edu/emk2001d.pdf",
+   "pagemap": {
+    "metatags": [
+     {
+      "creationdate": "D:20070627155157-08'00'",
+      "author": "Eugene Kupferman",
+      "creator": "PScript5.dll Version 5.2",
+      "producer": "Acrobat Distiller 8.1.0 (Windows)",
+      "moddate": "D:20070627155246-08'00'",
+      "title": "Controlled Atmosphere Storage of Apples and Pears, December 2001"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Apple Disorders Guide - Lenticel Breakdown",
+   "htmlTitle": "\u003cb\u003eApple\u003c/b\u003e Disorders Guide - Lenticel Breakdown",
+   "link": "http://entomology.tfrec.wsu.edu/Cullage_Site/Physiol_LB.html",
+   "displayLink": "entomology.tfrec.wsu.edu",
+   "snippet": "Aug 15, 2014 ... Quick Identification Guide to Apple Postharvest Defects & Disorders. \nPhysiological Disorders. The Physiological Disorders section of the card ...",
+   "htmlSnippet": "Aug 15, 2014 \u003cb\u003e...\u003c/b\u003e Quick Identification Guide to \u003cb\u003eApple\u003c/b\u003e Postharvest Defects &amp; Disorders. \u003cbr\u003e\nPhysiological Disorders. The Physiological Disorders section of the card&nbsp;...",
+   "cacheId": "ydutEnvNi4MJ",
+   "formattedUrl": "entomology.tfrec.wsu.edu/Cullage_Site/Physiol_LB.html",
+   "htmlFormattedUrl": "entomology.tfrec.wsu.edu/Cullage_Site/Physiol_LB.html",
+   "pagemap": {
+    "cse_image": [
+     {
+      "src": "http://entomology.tfrec.wsu.edu/Cullage_Site/cards/images/Lent-brk_F1.jpg"
+     }
+    ],
+    "cse_thumbnail": [
+     {
+      "width": "150",
+      "height": "164",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgfgbvx7BG83MKWDBi-Jc64IpyYv4tJDFwvtTV4l2DF1KfMporFLUnRp8"
+     }
+    ]
+   }
+  }
+ ]
+}
