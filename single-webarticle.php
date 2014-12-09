@@ -14,8 +14,15 @@ get_header(); ?>
 			<?php foreach( $fruits as $fruit ):?>
                 <a class="fruit-icon <?php echo $fruit;?>-icon" href="#<?php echo $fruit;?>-section" data-section="<?php echo $fruit;?>-section"></a>
             <?php endforeach;?><?php endif;?></h1>
-        
-	<?php the_content(); ?>
+      
+	<?php 
+	if ( have_posts() ) {
+		while ( have_posts() ) {
+			the_post(); 
+			the_content();
+		} // end while
+	} // end if
+ 	?>
     </article>
 </section>
 

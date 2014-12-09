@@ -1,9 +1,9 @@
 <header id="tf-primary-header">
 	<div class="tf-site-banner">
     	<a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a>
-        <form id="site-search" name="site-search" method="get" action="<?php bloginfo('url'); ?>" >
+        <form id="site-search" name="site-search" method="get" action="<?php bloginfo('url'); ?>/site-search/" >
         	<div>
-                <input id="site-search-field" type="text" value="Search" name="s" />
+                <input id="site-search-field" type="text" value="Search" name="term" />
                 <a href="<?php bloginfo('url'); ?>"></a>
             </div>
         </form>

@@ -14,7 +14,7 @@ body {
 	background-color: #fff;
 }
 
-h1 {font-size: 2rem }
+h1 {font-size: 2rem ; color: #981e33; }
 h2 {font-size: 1.6rem }
 h3 {font-size: 1.4rem }
 h4 {font-size: 1.2rem }
@@ -22,11 +22,13 @@ h5 {font-size: 1rem }
 
 main {
 	background: none !important;
+	position: relative;
 }
 
 main > section {
-	margin: 0 200px 3rem 2rem !important;
+	margin: 0 200px 3rem 0 !important;
 	width: auto !important;
+	padding-top: 2rem;
 	}
 	
 main > section > h1,
@@ -41,6 +43,10 @@ main > section > aside {
 	margin-right: 2rem;
 }
 
+
+main > section > article {
+	margin-left: 2rem !important;
+	}
 	
 #spine #glue {
 	-webkit-box-shadow: 0px 0px 4px 2px rgba(50, 50, 50, 0.61);
@@ -52,7 +58,8 @@ main > section > aside {
 	width: auto !important;
 }
 #tf-primary-header {
-	margin-bottom: 2rem;
+	/*margin-bottom: 2rem;*/
+	position: relative;
 }
 
 #tf-primary-header .tf-site-banner {
@@ -91,7 +98,7 @@ main > section > aside {
 	vertical-align: top;
 	position: relative;
 	float: right;
-	margin-right: 2rem;
+	padding: 0;
 }
 #site-search > div {
 	display: inline-block;
@@ -157,17 +164,20 @@ main > section > aside {
 	right: 0px;
 	bottom: 0px;
 	width: 200px;
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 300;
 }
 
 #tf-endowment-logo {
 	position: fixed;
 	width: 200px;
 	bottom: 0; 
+	z-index: 400;
 }
 
 #tf-endowment-logo img {
 	display: block;
+	height: 100px;
 }
 
 #search-filter {
@@ -328,7 +338,251 @@ main > section > aside {
 }
 
 /***** PAGEBUILDER OVERRIDES ******/
-main .pagebuilder-column aside,
 main .pagebuilder-column article {
 	margin: 0 1rem 2rem 1rem;
+}
+/************* Homepage Styling *********************/
+body.home {
+	background-image: url(images/backgrounds/tree-tunnel.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+body.home #binder {
+	position: relative;
+}
+body.home main > section {
+	position: relative;
+	}
+body.home main:before {
+	content: "";
+	width: auto;
+	background: rgba(0, 0, 0, 0.7);
+	left: 200px;
+	right: 400px;
+	position: absolute;
+	height: 100%;
+	visibility: visible;
+	}
+body.home h1 {
+	margin: 2rem 150px 0 150px;
+	text-align: center; 
+	position: relative;
+	left: -1rem;
+	color: #fff;
+	font-weight: bold;
+	font-size: 4rem;
+}
+body.home .pagebuilder-item {
+	margin: 0 250px 0 250px;
+}
+body.home .pagebuilder-item.widget_subtitle h2 {
+	margin: 0 2rem;
+	border-top: 2px solid #eab021;
+	color: #eab021;
+	text-align: center;
+	font-size: 1.4rem;
+	}
+#tf-homepage-footer {
+	position: fixed;
+	bottom: 0;
+	height: 100px;
+	background: #fff;
+	width: 100%;
+	max-width: 1386px;
+	background-image: url(images/red-footer-bg.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+}
+#tf-homepage-footer:after,
+#tf-homepage-footer:before {
+	content: "";
+	width: 100%;
+	background: #fff;
+	background-image: url(images/red-footer-bg.png);
+	background-repeat: repeat-x;
+	background-position: top center;
+	right: 400px;
+	position: absolute;
+	height: 100%;
+	}
+#tf-homepage-footer:after { right: 100%; }
+#tf-homepage-footer:before { left: 100%; }
+#tf-homepage-footer .fruit-nav { 
+	position: absolute;
+	left: 225px;
+	right: 225px;
+	width: auto;
+	bottom: 0;
+} 
+#tf-homepage-footer .fruit-option {
+		display: inline-block; 
+		vertical-align: bottom; 
+		width: 25%; 
+		text-align: center; 
+		position: relative; 
+		padding-bottom: 10px;}
+#tf-homepage-footer a .icon {display: block; width: 60%; text-align: center; margin: 0 auto;}
+#tf-homepage-footer a:hover .icon {display: block; width: 65%; text-align: center; margin: 0 auto;}
+#tf-homepage-footer a:hover .title {color: #cc0033;}
+#tf-homepage-footer .icon {display: block; width: 70%; text-align: center; margin: 0 auto;}
+#tf-homepage-footer .title {position: absolute; bottom: 15px; left: 0px; display: block; width: 100%; text-align: center; color: #900327; font-weight: bold;}
+#tf-homepage-footer .fruit-option img {display: block; width: 100%; height: auto; }
+
+.fruit-icon {
+	display: inline-block;
+	height: 35px;
+	width: 35px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	vertical-align: bottom;
+	opacity: 0.2;
+	margin-left: 0.5rem;
+}
+.fruit-icon.apple-icon {
+	background-image:url(images/apple-icon.png);
+}
+.fruit-icon.pear-icon {
+	background-image:url(images/pear-icon.png);
+}
+
+.fruit-icon.cherry-icon {
+	background-image:url(images/cherry-icon.png);
+}
+
+.fruit-icon.stone-fruit-icon {
+	background-image:url(images/stone-fruit-icon.png);
+}
+
+/**** Cultivar Page **/
+.cahnrs-web-article-articles {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+}
+.cahnrs-web-article-nav {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+.cahnrs-web-article-nav.apple-section .cahnrs-web-article-nav-icon {
+	background: url(images/apple.png) no-repeat bottom center;
+	background-size: contain;
+	height: 225px;
+	max-width: 200px;
+}
+.cahnrs-web-article-nav header {
+	color: #981e33;
+	border-bottom: 1px solid #981e33;
+	font-size: 0.9rem;
+	margin: 0 0 0 0.5rem;
+}
+
+.cahnrs-web-article-nav ul {
+	margin: 0 0 0 0.5rem;
+	padding: 0.5rem 0;
+}
+
+.cahnrs-web-article-nav li {
+	padding: 0.1rem 0 0.1rem 1rem;
+	margin: 0 0 0 1rem;
+}
+
+.cahnrs-web-article-nav li a {
+	color: #999;
+}
+
+.cahnrs-web-article-nav li.active-nav-item {
+	background: url(images/arrow-left.png) no-repeat left center;
+}
+
+.cahnrs-web-article-nav li.active-nav-item a {
+	color: #981e33;
+	font-weight: bold;
+}
+
+.cahnrs-web-article-articles .web-article-more-content{
+	display: none;
+}
+
+.cahnrs-web-article{
+	display: none;
+}
+
+.cahnrs-web-article:first-child {
+	display: block;
+}
+
+.cahnrs-web-article > a {
+	display: block;
+	text-decoration: none;
+	text-align: right;
+	color: #999;
+	padding: 0;
+	border-bottom: 1px solid #999;
+	font-size: 1rem;
+}
+
+.cahnrs-web-article-footer-nav ul {
+	width: 70%;
+	margin: 0;
+	padding: 0.5rem 0;
+}
+.cahnrs-web-article-footer-nav ul li {
+	display: none;
+}
+.cahnrs-web-article-footer-nav ul li.active-nav-item-next {
+	display: inline-block;
+	background: url(images/arrow-left.png) no-repeat right center;
+}
+.cahnrs-web-article-footer-nav ul li.active-nav-item-prev {
+	display: inline-block;
+	background: url(images/arrow-right.png) no-repeat left center;
+}
+.cahnrs-web-article-footer-nav ul li a {
+	display: block;
+	padding: 0 1.5rem;
+	font-size: 1.2rem;
+	color: #981e33;
+	border-left: 2px solid #981e33;
+}
+.cahnrs-web-article-footer-nav ul li:first-child a {
+	border-left: none;
+}
+
+
+
+/************* End Homepage Styling *****************/
+/************* CSS Hooks *********************/
+.extra-space-top {
+	margin-top: 2rem !important;
+}
+.toolbar-feed a,
+.toolbar-feed {
+	color: #fff;
+}
+.toolbar-feed h3 {
+	color: #eab021;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+}
+.toolbar-feed ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.toolbar-feed ul li{
+	margin: 0;
+	padding: 0.5rem 0;
+}
+.unbound {
+	position: relative;
+	left: -2rem !important;
+}
+@media only screen and (min-width: 1188px) and (max-width: 1386px) {
+	#tf-homepage-footer {
+		max-width: 1188px;
+	}
 }

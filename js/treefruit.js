@@ -5,6 +5,26 @@ jQuery(document).ready(function(){
 var init_treefruit = function(){
 	var s = this;
 	
+	s.init_fruit_icns = function(){
+		var icons = jQuery('.fruit-icon');
+		icons.each( function(){
+			var sec = jQuery( this ).data('section');
+			var cont = jQuery( "[name='"+sec+"']" );
+			if( cont.length > 0 )  {
+				jQuery( this ).fadeTo( 'slow' , 1 );
+			}
+		});
+		
+		icons.click(function( event ){
+			event.preventDefault();
+			var sec = jQuery( this ).data('section');
+			var cont = jQuery( "[name='"+sec+"']" );
+			if( cont.length > 0 )  {
+				jQuery("html, body").animate({ scrollTop: cont.offset().top +"px" }, 'medium' );
+			}
+			});
+	}
+	
 	s.init_srch_tbs = function(){
 		jQuery('#search-filter > ul > li').hover(
 			function(){ s.init_srch_tbs.shw_ops( jQuery( this ) ); },
@@ -36,11 +56,13 @@ var init_treefruit = function(){
 		jQuery('#site-search input').on('focus',function(){
 			if( jQuery( this).val() == 'Search') jQuery(this).val('');
 			});
-		jQuery('#site-search a').on('click',function(){
-			jQuery('#site-search').submit();
+		jQuery('#site-search a').on('click',function( e ){
+			e.preventDefault();
+			jQuery('#site-search').trigger('submit');
 			})
 	}
 	
 	s.init_srch_tbs();
 	s.init_srch();
+	s.init_fruit_icns();
 }
